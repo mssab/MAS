@@ -1,0 +1,1191 @@
+/* Block-Darstellung für HTML5-Elemente im IE8 */ 
+header, header2, header3,
+footer {
+   display: block;
+}
+/**********************************************/
+
+ 
+body {
+    background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family:'VodafoneRg_0';
+	font-size: 100%;
+	-ms-text-size-adjust: none;
+	overflow-x: hidden;
+	color: #525252;
+}
+
+@font-face{
+	font-family:'VodafoneRg_0';
+	src:url('../fonts/VodafoneRg_0.eot');
+	src:url('../fonts/VodafoneRg_0.eot?#iefix') format('embedded-opentype'),url('../fonts/VodafoneRg_0.ttf') format('truetype');
+	font-style:normal;
+	font-weight:normal;
+}
+
+@font-face {
+    font-family: 'vodafone_exbregular';
+    src: url('../fonts/vodafoneexbd-webfont.eot');
+    src: url('../fonts/vodafoneexbd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vodafoneexbd-webfont.woff2') format('woff2'),
+         url('../fonts/vodafoneexbd-webfont.woff') format('woff'),
+         url('../fonts/vodafoneexbd-webfont.ttf') format('truetype'),
+         url('../fonts/vodafoneexbd-webfont.svg#vodafone_exbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+.wrapper {
+    max-width: 830px !important;    
+    background-color: #fff;
+    margin: 0px auto;	
+	border: 0px solid red;
+	font-size: 100%;
+}
+
+.header {
+	max-width: 100% !important;
+	height:auto;
+	width: auto;		
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;	
+	border: 0px solid red;
+	display:block;	
+}
+
+.header img {
+	height: 100% !important;
+	max-width: 100% !important;
+	width: 100% !important;		
+}
+
+.content {
+	max-width: 100% !important;
+	height:auto !important;
+	width: auto !important;		
+	margin: 40px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;	
+	display:block;
+	border: 0px solid red;	
+	font-family:'VodafoneRg_0';
+	font-size: 100%;
+}
+
+.content img {
+	height: auto;
+	max-width: 100% !important;	
+	outline: 1px solid white;
+  	outline-offset: -4px;	
+}
+
+.content_1 {
+	max-width: 100% !important;
+	height:auto !important;
+	width: auto !important;		
+	margin: 30px 10px 0px 10px;
+	padding: 5px 0px 5px 0px;	
+	display:block;
+	border: 0px solid red;	
+	font-family:'VodafoneRg_0';
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.content_1 p{	
+	margin: 10px 0px 10px 0px;	
+	font-family:'VodafoneRg_0';
+	font-size: 120%;
+	line-height: 170%;
+	border: 0px solid red;
+}
+
+.content_2 {
+	max-width: 100% !important;
+	height:auto !important;
+	width: auto !important;		
+	margin: 40px 10px 0px 10px;
+	padding: 5px 0px 5px 0px;	
+	display:block;
+	border: 0px solid red;	
+	font-family:'VodafoneRg_0';
+	font-size: 100%;
+	color: #525252;
+	background-color: #fff;
+	overflow:hidden;
+}
+
+.content_2 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 100%;
+	border: 0px solid red;
+	color: #525252;
+}
+
+.col  {
+     width: 32%;
+    position: relative;
+    float: left;		
+	border:3px solid #fff;		
+}
+
+.col img {
+    max-width: 100%;
+    margin: 0px;
+    display: block;
+}
+
+.desc {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgb(224,224,224);
+    transition: 1s opacity;
+}
+
+.col:hover .desc {
+   opacity: 1;   
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+#footer {
+	max-width: 100% !important;
+	height:auto;
+	min-height: 180px;
+	width: auto;		
+	margin-top: 0px;
+	left: 20%;
+	background-color: #2e2e2e;
+	padding: 20px 20px 0px 20px;
+	text-align:center;		
+	display:block;
+	color: #fff;
+}
+
+#footer a {
+	margin: 0px 5px 0px 5px;
+	color: #fff;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	margin: 0px 5px 0px 5px;
+	color: #fff;
+	text-decoration:underline;
+}
+
+#footer a:visited {
+	margin: 0px 5px 0px 5px;
+	color: #fff;
+	text-decoration:none;
+}
+
+h1 {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 30px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #e60000;
+	font-family: arial;
+	font-family:'VodafoneRg_0';
+	font-size: 300%;
+	font-weight: bold;	
+}
+
+
+
+.headline_weiss {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 0px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-family: arial;
+	font-family:'VodafoneRg_0';
+	font-size: 180%;
+	font-weight: normal;	
+}
+
+#sidebar {
+	width: 280px !important;
+	height: auto;		
+	float: left;
+	border: 0px solid red;
+	position: absolute;
+}
+
+#sidebar img {
+	max-width: 100% !important;
+	width: auto;	
+	
+   
+}
+	.maps {
+	position: relative;
+	padding-bottom: 40%;
+	height: 0;
+	overflow: hidden;
+}
+
+	.maps iframe {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 100%;
+	height: 157%;	
+}
+
+	.maps_2 {
+	position: relative;
+	padding-bottom: 31%;
+	height: 0;
+	overflow: hidden;
+}
+
+	.maps_2 iframe {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 100%;
+	height: 157%;	
+}
+
+.rslides {
+  position: absolute;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+.quadrat_unten {
+	height: 15%;
+    width: 27%;   
+    padding-left:0%;
+	margin-left: 16.5%;	
+    padding-bottom: 20%;
+	margin-top: 24%;
+    overflow: hidden;
+	background-color: transparent;
+	color: #fff;
+}
+
+.quadrat_oben {
+	height: 3%;
+    width: 12%;   
+    padding-left:0%;
+	margin-left: 24%;	
+    padding-bottom: 5%;
+	margin-top: -44% !important;
+    overflow: hidden;
+	background-color: transparent;
+	color: #fff;
+}
+
+.quadrat_links {
+	height: 10%;
+    width: 18%;   
+    padding-left:0%;
+	margin-left: 0%;	
+    padding-bottom: 22%;
+	margin-top: -2% !important;
+    overflow: hidden;
+	background-color: transparent;
+	color: #fff;
+}
+
+.quadrat_rechts {
+	height: 50%;
+    width: 45%;   
+    padding-left:0%;
+	margin-left: 55%;	
+    padding-bottom: 200%;
+	margin-top: -100% !important;
+    overflow: hidden;
+	background-color: transparent;
+	color: #fff;
+}
+
+.abschluss {
+margin-bottom: 60px !important;
+}
+
+
+
+/*Formular*/
+
+   select {
+   background: transparent;
+   width: 100%;
+   padding: 8px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   font-size: 90%;   
+   color: #525252;
+   -webkit-appearance: none;
+   border: 2px solid #e6e6e6;
+   }
+
+
+	.anmeldeform_login {
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	font-size: 100%;
+	border: 0px solid red;
+}
+	
+	
+
+	.anmeldeform_login input[type=password]{
+	background-image: url("../img/vf_ok.png");
+    background-position: right;
+    background-repeat: no-repeat;	
+	font-family: arial;
+	color: #525252;
+	font-size: 100%;
+	width: 100%;
+	padding: 8px;
+	border: 2px solid #e6e6e6;
+}
+
+	.anmeldeform_login input:invalid {
+    background-image: url("../img/vf_invalid.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 2px solid #e6e6e6;
+}
+
+	.anmeldeform_login input[type=checkbox]{
+    display: block;
+	float:left;
+	margin: 0px 15px 0px 0px !important;
+	
+}
+
+
+	textarea {
+	background-image: url("../img/vf_ok.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+  	font-family: arial;
+	color: #525252;
+	font-size: 100%;
+	width: 100%;
+	padding: 8px;
+	border: 2px solid #e6e6e6;
+}
+
+	textarea:invalid {
+	background-image: url("../img/vf_invalid.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+  	font-family: arial;
+	color: #525252;
+	font-size: 100%;
+	width: 100%;
+	padding: 8px;
+	border: 2px solid #e6e6e6;
+}
+
+.button_absenden {
+font-family: arial;
+	background-color: #E60000;
+	color: #fff;
+	font-size: 100% !important;
+	padding: 0px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 2px;	
+	font-weight: bold !important;	
+	width: 150px;
+	height: 35px;
+	border: 2px solid #E60000;
+	margin-top: 6px;
+	
+}	
+
+	
+
+.button_weiss {
+font-family: arial;
+	background-color: #fff;
+	color: #e60000;
+	font-size: 150% !important;
+	padding: 0px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 2px;
+	border:0 none;
+	font-weight: bold !important;	
+	width: 345px;
+	height: 65px;
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+	
+}
+
+.button_rot {
+font-family: arial;
+	background-color: #e60000;
+	color: #fff;
+	font-size: 150% !important;
+	padding: 0px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 2px;
+	border:0 none;
+	font-weight: bold !important;	
+	width: 345px;
+	height: 65px;
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+	
+}
+
+.button_footer {
+font-family: arial !important;
+	background-color: #2E2E2E !important;
+	color: #fff !important;
+	font-size: 130% !important;
+	padding: 0px !important;
+	cursor: pointer !important;
+	-webkit-border-radius: 5px !important;
+	border-radius: 0px !important;
+	border:0 none !important;
+	font-weight: bold !important;	
+	margin: 10px 0px 0px 232px !important;
+	
+	
+}
+
+.button_footer:focus {
+	font-family: arial;
+	background-color: #2E2E2E !important;
+	color: #fff !important;
+	font-size: 130% !important;
+	padding: 0px !important;
+	cursor: pointer !important;
+	-webkit-border-radius: 5px !important;
+	border-radius: 0px !important;
+	border:0 none !important;
+	font-weight: bold !important;	
+	margin: 10px 0px 0px 232px !important;
+	
+	
+}
+
+
+
+	.btn_slider_1{
+	font-family: arial;
+	background-color: #3d3d3d !important;
+	color: #fff !important;
+	font-size: 80%;
+	padding: 15px 30px 15px 30px !important;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #3d3d3d !important;
+	font-weight: normal !important;
+	-webkit-box-shadow: -1px 1px 13px 3px rgba(0,0,0,0.14);
+-moz-box-shadow: -1px 1px 13px 3px rgba(0,0,0,0.14);
+box-shadow: -1px 1px 13px 3px rgba(0,0,0,0.14);
+}
+
+	.btn_slider_1:hover{
+	font-family: arial;
+	background-color: #000 !important;
+	color: #fff !important;
+	font-size: 80%;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #000 !important;
+	font-weight: normal !important;
+	-webkit-box-shadow: -1px 1px 13px 3px rgba(0,0,0,0.14);
+-moz-box-shadow: -1px 1px 13px 3px rgba(0,0,0,0.14);
+box-shadow: -1px 1px 13px 3px rgba(0,0,0,0.14);
+}
+
+
+
+.btn_slider_2{
+	font-family: arial;
+	background-color: #E30613 !important;
+	color: #fff !important;
+	font-size: 80%;
+	padding: 15px 30px 15px 30px !important;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #E30613 !important;
+	font-weight: normal !important;
+	
+}
+
+	.btn_slider_2:hover{
+	font-family: arial;
+	background-color: #000 !important;
+	color: #fff !important;
+	font-size: 80%;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #000 !important;
+	font-weight: normal !important;
+	
+}
+
+	
+
+	#container_tabs {
+	padding: 15px 10px 10px 10px !important;
+	border: 0px solid red;
+	}
+	
+	#tab_inhalt {
+	border: 1px solid #d8d8d8;
+	width: 100%;
+	margin-top: -1px;
+	background-color:#fff;
+	color: #525252;	
+	}
+
+	.tab {
+	background-color: #e7e7e7;
+	height: auto;
+	width: 30%;
+	font-weight: bold;
+	padding: 10px 0px 8px 10px;
+	float: left;
+	margin-right: 3px;
+	cursor: pointer;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 0px solid #d8d8d8;
+	word-break: break-all;	
+}
+
+	.aktiv {
+	background-color: #fff;
+	height: auto;
+	width: 30%;
+	font-weight: bold;
+	padding: 10px 0px 8px 10px;
+	float: left;
+	margin-right: 3px;
+	cursor: pointer;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 0px solid #d8d8d8;		
+}
+
+.ticket_bild {
+float:right;
+margin: 0px 0px 0px 40px !important;
+width: 85%;
+height: auto;	
+clear: both;
+}
+
+.abstand_ticket_bild {
+margin: 35px 0px 0px 0px !important;	
+}
+
+.gewinn {
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+.abstand_neu {
+	clear:both;
+	height: 50px;
+}
+
+.geteilt {
+width: 50%;
+float:left;	
+font-size: 120%;
+
+}
+
+.geteilt_2 {
+width: 50%;
+float:right;
+font-size: 120%;
+
+}
+
+.beschriftung {
+width: 30%;
+float:left;
+padding: 7px 0px 0px 0px;
+margin: 5px 0px 5px 0px;
+
+}
+
+.formfeld {
+width: 55%;
+float:left;
+margin: 5px 0px 5px 0px;
+}
+
+
+input[type=text]{
+	
+	font-family: arial;
+	color: #000;
+	width: 98.50% !important;
+	font-size: 100%;
+	padding: 8px;
+	margin: 5px 0px 5px 0px;
+	border: 2px solid #e6e6e6;
+	background-color: #f4f4f4;
+}
+
+.ausgabe_oben {
+width: 1536px !important;
+height: 2000px !important;
+background-image: url("../img/BG-Tablet_1536x2000px.jpg");
+background-repeat: no-repeat;	
+
+}
+
+.ausgabe_unten {
+width: 1536px !important;
+height: 48px !important;
+background-color: #2E2E2E;	
+}
+
+
+
+@media screen and (max-width: 50em) {
+
+
+select {
+   background: transparent;
+   width: 100%;
+   padding: 8px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   font-size: 90%;   
+   color: #525252;
+   -webkit-appearance: none;
+   border: 2px solid #e6e6e6;
+   }
+
+.content_1 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 90%;
+	border: 0px solid red;
+}
+
+.content_2 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 90%;
+	border: 0px solid red;
+}
+
+.col  {
+    width: 32%;
+    position: relative;
+    float: left;		
+	border:3px solid #fff;		
+}
+
+#footer {
+	font-size: 90%;
+}
+
+.ausgabe_tab tr td {
+font-size: 95% !important;
+}
+
+h1 {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 30px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #e60000;
+	font-family: arial;
+	font-family:'vodafone_exbregular';
+	font-size: 170%;
+	font-weight: normal;	
+}
+
+.abschluss {
+margin-bottom: 75px !important;
+}
+
+
+}
+
+@media screen and (max-width: 50em) {
+	
+.geteilt {
+width: 100%;
+float:left;	
+margin-left: 20px;
+font-size: 90%;
+
+}
+
+.geteilt_2 {
+width: 100%;
+float:left;
+margin-left: 20px;
+font-size: 90%;
+	
+}
+
+.beschriftung {
+width: 30%;
+float:left;
+padding: 7px 0px 0px 0px;
+margin: 5px 0px 5px 0px;
+}
+
+.formfeld {
+width: 55%;
+float:left;
+margin: 5px 0px 5px 0px;
+font-size: 90%;
+
+}	
+	
+	.abstand_neu {
+	clear:both;
+	height: 20px;
+}
+
+select {
+   background: transparent;
+   width: 100%;
+   padding: 8px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   font-size: 90%;   
+   color: #525252;
+   -webkit-appearance: none;
+   border: 2px solid #e6e6e6;
+   }
+
+.content_1 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 90%;
+	border: 0px solid red;
+}
+
+.content_2 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 90%;
+	border: 0px solid red;
+}
+
+.col  {
+    width: 32%;
+    position: relative;
+    float: left;		
+	border:3px solid #fff;		
+}
+
+#footer {
+	font-size: 90%;
+}
+
+.ausgabe_tab tr td {
+font-size: 95% !important;
+}
+
+h1 {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 30px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #e60000;
+	font-family: arial;
+	font-family:'vodafone_exbregular';
+	font-size: 170%;
+	font-weight: normal;	
+}
+
+.headline_weiss {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 0px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-family: arial;
+	font-family:'VodafoneRg_0';
+	font-size: 170%;
+	font-weight: normal;	
+}
+
+.abschluss {
+margin-bottom: 75px !important;
+}
+
+.abstand_ticket_bild {
+margin: 30px 0px 0px 0px !important;
+border: 1px solid white !important;	
+}
+
+}
+
+@media screen and (max-width: 40em) {
+	
+	
+
+	
+	
+.abstand_ticket_bild {
+margin: 0px 0px 0px 0px !important;
+border: 0px solid white !important;	
+}
+
+
+select {
+   background: transparent;
+   width: 100%;
+   padding: 8px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   font-size: 85%;   
+   color: #525252;
+   -webkit-appearance: none;
+   border: 2px solid #e6e6e6;
+   }
+
+.content_1 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 85%;
+	border: 0px solid red;
+}
+
+.content_2 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 85%;
+	border: 0px solid red;
+}
+
+.col  {
+    width: 32%;
+    position: relative;
+    float: left;		
+	border:3px solid #fff;
+			
+}
+
+#footer {
+	font-size: 85%;
+}
+
+.ausgabe_tab tr td {
+font-size: 90% !important;
+}
+
+h1 {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 30px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #e60000;
+	font-family: arial;
+	font-family:'vodafone_exbregular';
+	font-size: 145%;
+	font-weight: normal;	
+}
+
+.headline_weiss {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 0px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-family: arial;
+	font-family:'VodafoneRg_0';
+	font-size: 145%;
+	font-weight: normal;	
+}
+
+.abschluss {
+margin-bottom: 50px !important;
+}
+
+}
+
+@media screen and (max-width: 35em) {
+	
+
+
+.ticket_bild {
+float:left;
+margin: 0px 0px 25px 0px !important;
+width: 80%;
+height: auto;	
+clear: both;
+border: 0px solid red;
+}
+
+.abstand_ticket_bild {
+margin: 0px 0px 0px 0px !important;	
+border: 0px solid red !important;
+}
+
+}
+
+@media screen and (max-width: 30em) {
+	
+.geteilt {
+width: 100%;
+float:left;	
+margin-left: 20px;
+font-size: 90%;
+
+}
+
+.geteilt_2 {
+width: 100%;
+float:left;
+margin-left: 20px;
+font-size: 90%;
+	
+}
+
+.beschriftung {
+width: 100%;
+float:left;
+padding: 7px 0px 0px 0px;
+margin: 5px 0px 5px 0px;
+}
+
+.formfeld {
+width: 80%;
+float:left;
+margin: 5px 0px 5px 0px;
+font-size: 90%;
+
+}	
+	
+.gewinn {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+select {
+   background: transparent;
+   width: 100%;
+   padding: 8px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   font-size: 85%;   
+   color: #525252;
+   -webkit-appearance: none;
+   border: 2px solid #e6e6e6;
+   }
+
+.content_1 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 80%;
+	border: 0px solid red;
+}
+
+.content_2 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 80%;
+	border: 0px solid red;
+}
+
+.col  {
+    width: 48%;
+    position: relative;
+    float: left;		
+	border:3px solid #fff;		
+}
+
+#footer {
+	font-size: 80%;
+}
+
+.ausgabe_tab tr td {
+font-size: 85% !important;
+}
+
+h1 {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 30px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #e60000;
+	font-family: arial;
+	font-family:'vodafone_exbregular';
+	font-size: 125%;
+	font-weight: normal;	
+}
+
+.headline_weiss {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 0px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-family: arial;
+	font-family:'VodafoneRg_0';
+	font-size: 125%;
+	font-weight: normal;	
+}
+
+.abschluss {
+margin-bottom: 40px !important;
+}
+
+}
+
+@media screen and (max-width: 20em) {
+
+select {
+   background: transparent;
+   width: 100%;
+   padding: 8px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   font-size: 90%;   
+   color: #525252;
+   -webkit-appearance: none;
+   border: 2px solid #e6e6e6;
+   }
+.content_1 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 75%;
+	border: 0px solid red;
+}
+
+.content_2 p{	
+	margin: 10px 15px 10px 15px;	
+	font-family:'VodafoneRg_0';
+	font-size: 75%;
+	border: 0px solid red;
+}
+
+.col  {
+    width: 46.50%;
+    position: relative;
+    float: left;		
+	border:3px solid #fff;		
+}
+
+#footer {
+	font-size: 75%;
+}
+
+.ausgabe_tab tr td {
+font-size: 80% !important;
+}
+
+h1 {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 30px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #e60000;
+	font-family: arial;
+	font-family:'vodafone_exbregular';
+	font-size: 120%;
+	font-weight: normal;	
+}
+
+.headline_weiss {
+	max-width: 100% !important;
+	width: auto;
+	border: 0px solid #d8d8d8;
+	margin: 5px 0px 0px 13px;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-family: arial;
+	font-family:'VodafoneRg_0';
+	font-size: 120%;
+	font-weight: normal;	
+}
+
+.abschluss {
+margin-bottom: 40px !important;
+}
+
+}
+
+
+
+
+
+
+

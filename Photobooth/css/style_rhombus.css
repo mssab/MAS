@@ -1,0 +1,47 @@
+.rhombus {
+background: url("../img/rhombus.png") no-repeat;
+height: 100%;
+position: absolute;
+right: 1257px;
+top: -86px;
+width: 1970px;
+z-index: 2;
+}
+
+
+
+
+
+
+@media screen and (max-width: 95em) {
+.rhombus {
+background: url("../img/rhombus_small.png") no-repeat;
+display: block;
+height: 165px;
+position: absolute;
+left: -3px;
+top: -23px;
+width: 100px;
+z-index: 2;
+border: 0px solid black;
+}
+
+}
+
+
+@media screen and (max-width: 27em) {
+
+.rhombus {
+background: url("../img/rhombus_small_2.png") no-repeat;
+display: block;
+height: 100px;
+position: absolute;
+left: -1px;
+top: -10px;
+width: 100px;
+z-index: 2;
+border: 0px solid black;
+}
+
+
+}

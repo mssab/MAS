@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    var isUp = false;
+function animate() {
+    var $navbarEl = $("#navbar");
+    var $parent = $navbarEl.parent();
+    if(isUp) {
+        $navbarEl.animate({top: 0}, 2000);
+    } else {
+        $navbarEl.animate({top: $parent.height() - $navbarEl.height() - 0 }, 2000);
+    }
+    isUp = !isUp;
+}
+
+$('#starten').click(animate)
+});
+</script> 
+
+<style type="text/css">
+#parent {
+  width: 1536px;
+  height: 300px;
+  outline: 1px dashed red;
+  position: relative;
+  overflow:hidden;
+  bottom: 0;
+}
+
+#navbar {
+  position: absolute;
+  width: 1536px;
+  height: 300px;
+  outline: 0px solid green;
+  bottom: 0;
+  margin-bottom:-300px;
+  background-color: #dddddd;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<button id="starten">Start Animation</button>
+
+
+
+<div id="parent">
+  <div id="navbar">
+  <center><br />
+  HIER KOMMT DAS FORMULAR REIN!!!!
+
+  </center>
+  </div>
+ </div>
+
+</body>
+</html>
