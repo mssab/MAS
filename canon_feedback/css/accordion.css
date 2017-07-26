@@ -1,0 +1,219 @@
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+#wrapper_accordion {
+	
+	border: 0px solid green;
+	margin-left: 25%;
+	margin-right: 25% !important;
+	border: 0px solid red;
+	
+	}
+
+.accordionButton {	
+	width: 98% !important;
+	padding: 6px 0px 6px 0px;
+	float: left;
+	_float: none;  /* Float works in all browsers but IE6 */
+	
+	min-height: auto;
+	cursor: pointer;
+	border-top: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	background-image: -ms-linear-gradient(top, #FFFFFF 70%, #f2f2f2 100%);
+	background-image: -moz-linear-gradient(top, #FFFFFF 70%, #f2f2f2 100%);
+	background-image: -o-linear-gradient(top, #FFFFFF 70%, #f2f2f2 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70, #FFFFFF), color-stop(100, #f2f2f2));
+	background-image: -webkit-linear-gradient(top, #FFFFFF 70%, #f2f2f2 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 70%, #f2f2f2 100%);
+	
+	
+	}
+	
+.accordionContent {	
+	width: 95% !important;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+	border-top: 0px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	background-color: #fff;
+	padding-left: 0px;
+	}
+	
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+
+	
+#headline_boxes_accordion {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 150%;
+color: #333333;
+margin-left: 10px;
+margin-right: 10px;
+border: 0px solid red;
+width: 95% !important;
+height: 100% !important;
+
+
+}
+
+@media screen and (max-width: 60em) {
+	
+#wrapper_accordion {
+	width: 102% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+	}
+
+
+
+
+	
+}
+
+
+@media screen and (max-width: 55em) {
+	
+#wrapper_accordion {
+	width: 102% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+	}
+
+
+
+
+	
+}
+
+
+@media screen and (max-width: 50em) {
+	
+#wrapper_accordion {
+	width: 100% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+	}
+
+
+#headline_boxes_accordion {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 150%;
+color: #333333;
+margin-left: 10px;
+margin-right: 10px;
+border: 0px solid red;
+width: 95% !important;
+height: 100% !important;
+
+
+}		
+}
+
+@media screen and (max-width: 40em) {
+	
+#wrapper_accordion {
+	width: 98% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+}
+
+
+
+#headline_boxes_accordion {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 130%;
+color: #333333;
+margin-left: 10px;
+margin-right: 10px;
+border: 0px solid red;
+width: 95% !important;
+height: 100% !important;
+
+
+}		
+}
+
+@media screen and (max-width: 35em) {
+
+#wrapper_accordion {
+	width:100% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+}
+}
+
+@media screen and (max-width: 30em) {
+	
+#wrapper_accordion {
+	width: 100% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+}
+
+
+#headline_boxes_accordion {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 110%;
+color: #333333;
+margin-left: 10px;
+margin-right: 10px;
+border: 0px solid red;
+width: 95% !important;
+height: 100% !important;
+
+
+}		
+}
+
+@media screen and (max-width: 25em) {
+
+#wrapper_accordion {
+	width: 98% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+}
+}
+
+
+@media screen and (max-width: 20em) {
+
+#wrapper_accordion {
+	width: 94% !important;
+	border: 0px solid green;
+	margin: 20px 10px 0px 10px;
+	
+}
+
+#headline_boxes_accordion {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 100%;
+color: #333333;
+margin-left: 10px;
+margin-right: 10px;
+border: 0px solid red;
+width: 95% !important;
+height: 100% !important;
+
+
+}		
+}

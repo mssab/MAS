@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20170602T125610Z
+DESCRIPTION:Canon Partner Key-Note 2017\n----------------------------------
+	-----------------------------------------------------------------\n\n\nCan
+	on Convention Center\nEuropark Fichtenhain A10\n\n47807 Krefeld\nDeutschla
+	nd\n\nWichtiger Hinweis:\nSollten Sie einen Folgetermin mit Ihrem Canon Au
+	ßendienstmitarbeiter wünschen\,\nstimmen Sie diesen bitte zeitnah ab. Um
+	 Ihren Aufenthalt optimal planen zu können\, \nwerden wir diesen Termin i
+	m Anmeldeformular abfragen.\n\nHerzlichen Dank\n\nIhr\nCanon Event-Team\n\
+	n\n \n\n\n
+DTEND;TZID="W. Europe Standard Time":20170626T170000
+DTSTAMP:20170602T125610Z
+DTSTART;TZID="W. Europe Standard Time":20170626T130000
+LAST-MODIFIED:20170602T125610Z
+LOCATION:Canon Convention Center\, Europark Fichtenhain A10\, 47807 Krefeld
+	\, Deutschland
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Canon Partner Key-Note 2017
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0EB2E59B0DBD201000000000000000
+	010000000BF1187D59F885C43B620B14E9C7506C5
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="de"></SPAN><SPAN LANG="d
+	e"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="en-us"><FONT FACE="Calibri">C
+	anon Partner Key-Note 2017</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG=
+	"de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="en-us"><BR>\n<FONT FACE="Ar
+	ial">---------------------------------------------------------------------
+	------------------------------<BR>\n</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN
+	 LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG
+	="en-us"><FONT FACE="Calibri">Canon Convention Center</FONT></SPAN><SPAN L
+	ANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="
+	en-us"><BR>\n</SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LA
+	NG="de"></SPAN><SPAN LANG="en-us"><FONT FACE="Calibri">Europark Fichtenhai
+	n A10</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LAN
+	G="de"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="de"
+	></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Calibri">47807 
+	Krefeld</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN L
+	ANG="de"><BR>\n</SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN 
+	LANG="de"><FONT FACE="Calibri">Deutschland</FONT></SPAN><SPAN LANG="de"></
+	SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"><BR>\n<BR>\n</SPAN><SPAN LANG=
+	"de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Calibri">Wi
+	chtiger</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN L
+	ANG="de"><FONT FACE="Arial"></FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LAN
+	G="de"></SPAN><SPAN LANG="de"> <FONT FACE="Calibri">Hinweis:<BR>\nSollten 
+	Sie einen Folgetermin mit</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="
+	de"></SPAN><SPAN LANG="de"><FONT FACE="Arial"></FONT></SPAN><SPAN LANG="de
+	"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"> <FONT FACE="Calibri">Ihre
+	m Canon Außendienstmitarbeiter</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN 
+	LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Arial"></FONT></SPAN><SPAN LA
+	NG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"> <FONT FACE="Calibri
+	">wünschen\,</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><
+	SPAN LANG="de"><BR>\n</SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN>
+	<SPAN LANG="de"><FONT FACE="Calibri">stimmen Sie diesen</FONT></SPAN><SPAN
+	 LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Arial
+	"></FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="
+	de"> <FONT FACE="Calibri">bitte</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN 
+	LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Arial"></FONT></SPAN><SPAN LA
+	NG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"> <FONT FACE="Calibri
+	">zeitnah ab. Um Ihren Aufenthalt optimal planen</FONT></SPAN><SPAN LANG="
+	de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Arial"></FON
+	T></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"> <F
+	ONT FACE="Calibri">zu können\, </FONT></SPAN><SPAN LANG="de"></SPAN><SPA
+	N LANG="de"></SPAN><SPAN LANG="de"><BR>\n</SPAN><SPAN LANG="de"></SPAN><SP
+	AN LANG="de"></SPAN><SPAN LANG="de"><FONT FACE="Calibri">werden wir diesen
+	 Termin im Anmeldeformular abfragen.<BR>\n<BR>\nHerzlichen Dank<BR>\n<BR>\
+	nIhr<BR>\nCanon Event-Team</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG=
+	"de"></SPAN><SPAN LANG="de"><BR>\n</SPAN></P>\n\n<P DIR=LTR><SPAN LANG="de
+	"><FONT FACE="Arial"> </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="de"></
+	SPAN><SPAN LANG="de"></SPAN><SPAN LANG="de"></SPAN></P>\n\n</BODY>\n</HTML
+	>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT5760M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,163 @@
+html {
+height: 100%
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background-color: #fff;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 14px;
+overflow-x: hidden;
+color: #333;
+}
+
+
+@font-face {font-family: 'FreestyleScriptSB-Regular';src: url('../../webfonts/31D3A6_0_0.eot');src: url('../../webfonts/31D3A6_0_0.eot?#iefix') format('embedded-opentype'),url('../../webfonts/31D3A6_0_0.woff2') format('woff2'),url('../../webfonts/31D3A6_0_0.woff') format('woff'),url('../../webfonts/31D3A6_0_0.ttf') format('truetype');}
+
+#container {
+position: absolute;
+left: 50%;
+top: 15%;
+width: 470px;
+height: auto;
+margin-left: -235px;
+
+border:0px solid #fff;
+padding: 0px 0px 0px 0px;
+font-weight:normal;
+color: #333;
+z-index: 2000;
+}
+
+#container_inhalt {
+width: 430px;
+height: auto;
+border:1px solid #fff;
+padding: 20px 20px 30px 20px;
+background-color: #fff;
+font-weight:normal;
+color: #333;
+}
+
+#rhombus {
+background-image: url("../img/logo_gross.png");
+background-repeat: no-repeat;
+height: 517px;
+width: 450px;
+border: 0px solid #fff;
+margin: 0px auto;
+z-index: 1000;
+position: absolute;
+}
+
+
+.headline {
+font-family: 'VodafoneRg_0';
+font-weight:bold;
+font-size: 32px;
+color: #004894;
+}
+
+#inhalt {
+margin-top: 10px;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:normal;
+color: #333;
+}
+
+input[type=submit]{
+	font-family: Arial;
+	background-color: #a9ce00;
+	color: #fff;
+	font-size: 100%;
+	padding: 13px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:0 none;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+	input[type=submit]:hover{
+	font-family: Arial;
+	background-color: #bfdd37;
+	color: #fff;
+	font-size: 100%;
+	padding: 13px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:0 none;
+	font-weight: bold;
+}
+
+	input[type=button]{
+	font-family: Arial;
+	background-color: #a9ce00;
+	color: #fff;
+	font-size: 100%;
+	padding: 13px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:0 none;
+	font-weight: bold;
+}
+
+	input[type=button]:hover{
+	font-family: Arial;
+	background-color: #bfdd37;
+	color: #fff;
+	font-size: 100%;
+	padding: 13px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:0 none;
+	font-weight: bold;
+}
+
+	button{
+	font-family: Arial;
+	background-color: #a9ce00;
+	color: #fff;
+	font-size: 100%;
+	padding: 13px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:0 none;
+	font-weight: bold;
+}
+
+	button:hover{
+	font-family: Arial;
+	background-color: #bfdd37;
+	color: #fff;
+	font-size: 100%;
+	padding: 13px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:0 none;
+	font-weight: bold;
+}
+
+
+table, tr, td {
+color: #333;
+font-size: 14px; 
+font-weight:normal;	
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+  
+
+
